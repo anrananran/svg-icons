@@ -1,0 +1,45 @@
+{
+  "env": {
+    "local": {
+      "community": "http://192.168.2.230:8081/community",
+      "bbs": "http://192.168.2.230:8082/bbs",
+      "contents": "http://192.168.2.230:8083/contents",
+      "message": "http://192.168.2.230:8084/message",
+      "cost": "http://192.168.2.230:8085/cost",
+      "services": "http://192.168.2.230:8086/services",
+      "tasks": "http://192.168.2.230:8088/tasks"
+    },
+    "dev": {
+      "community": "http://10.23.127.91:8081/community",
+      "bbs": "http://10.23.127.91:8082/bbs",
+      "contents": "http://10.23.127.91:8083/contents",
+      "message": "http://10.23.127.91:8084/message",
+      "cost": "http://10.23.127.91:8085/cost",
+      "services": "http://10.23.127.91:8086/services",
+      "pay": "http://10.23.127.91:8087/pay",
+      "tasks": "http://10.23.127.91:8088/tasks"
+    },
+    "test": {
+      "community": "http://smart.smefdd.com/community",
+      "bbs": "http://smart.smefdd.com/bbs",
+      "contents": "http://smart.smefdd.com/contents",
+      "message": "http://smart.smefdd.com/message",
+      "cost": "http://smart.smefdd.com/cost",
+      "services": "http://smart.smefdd.com/services",
+      "pay": "http://smart.smefdd.com/pay",
+      "tasks": "http://smart.smefdd.com/tasks"
+    },
+    "stage": {
+      "community": "http://smart.smefqy.com/community",
+      "bbs": "http://smart.smefqy.com/bbs",
+      "contents": "http://smart.smefqy.com/contents",
+      "message": "http://smart.smefqy.com/message",
+      "cost": "http://smart.smefqy.com/cost",
+      "services": "http://smart.smefqy.com/services",
+      "pay": "http://smart.smefqy.com/pay",
+      "tasks": "http://smart.smefqy.com/tasks"
+    },
+    "prod": {}
+  },
+  "runtime": "local"
+}

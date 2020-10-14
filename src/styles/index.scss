@@ -1,0 +1,50 @@
+@import './reset.scss';
+
+.clip-hide {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px,1px,1px,1px);
+}
+
+.ellipsis-multiple {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+  display: -webkit-box;
+}
+
+.ellipsis-one {
+  -webkit-line-clamp: 1;
+}
+
+.ellipsis-two {
+  -webkit-line-clamp: 2;
+}
+
+.loading-text-placeholder {
+  text-align: center;
+  color: $color_text_gray;
+  padding: 40px 20px;
+  font-size: 28px;
+}
+
+.row-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.permission-deny {
+  pointer-events: none;
+}

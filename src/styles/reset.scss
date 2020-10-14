@@ -1,0 +1,19 @@
+
+body {
+  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color_text_gray_dark;
+  font-size: 28px;
+  background-color: $color_bg_white_shadow;
+  user-select: none;
+}
+
+a {
+  color: $color_text_gray_dark;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
