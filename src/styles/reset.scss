@@ -3,14 +3,14 @@ body {
   // font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $color_text_gray_dark;
+  color: #333;
   font-size: 28px;
-  background-color: $color_bg_white_shadow;
+  background-color: #f8f8f8;
   user-select: none;
 }
 
 a {
-  color: $color_text_gray_dark;
+  color: #333;
   text-decoration: none;
 }
 

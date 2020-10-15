@@ -3,21 +3,14 @@
     <img src="~@/assets/network.svg" width="202" alt="">
     <h1 class="tit">网络连接不稳定，请稍后再试</h1>
     <div class="btns">
-      <van-button round size="large" block type="primary" @click="refreshPage">重新加载</van-button>
+      <router-link to="/">返回首页</router-link>
     </div>
   </div>
 </template>
 
 <script>
-import { BASE_DIR } from '@/constants'
-
 export default {
-  name: 'Error',
-  methods: {
-    refreshPage() {
-      window.location.href = BASE_DIR
-    }
-  }
+  name: 'Error'
 }
 </script>
 

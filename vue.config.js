@@ -15,35 +15,11 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     compress: true,
-    port: 8080,
+    port: 2020,
     open: false,
     overlay: {
       warnings: false,
       errors: true
-    }
-  },
-  css: {
-    loaderOptions: {
-      scss: {
-        prependData: `@import "@/styles/variables.scss";` // 配置sass全局变量，无需在单独的组件引入
-      },
-      less: {
-        modifyVars: { // vant 主题定制
-          'red': '#CB3D2B',
-          'blue': '#8babff',
-          'orange': '#E6A23C',
-          'green': '#55D3A4',
-          'gray': '#dcdfe6',
-          'gray-light': '#e4e7ed',
-          'gray-darker': '#606266',
-          'gray-dark': '#969799',
-          'text-color': '#454545',
-          'cell-value-color': '#909399',
-          'border-color': '#ebeef5',
-          'button-large-height': '45px',
-          'button-large-line-height': '43px'
-        }
-      }
     }
   },
   chainWebpack(config) {

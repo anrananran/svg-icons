@@ -1,10 +1,10 @@
 <template>
-  <van-row class="icon-list">
-    <van-col v-for="(item, index) in allIcons" :key="index" class="icon-item" :span="6" @click.native="copyName(item.name)">
+  <el-row class="icon-list">
+    <el-col v-for="(item, index) in allIcons" :key="index" class="icon-item" :span="4" @click.native="copyName(item.name)">
       <svg-icon class-name="icon-svg" :icon-class="item.name" />
       <span class="icon-name">{{ item.name }}</span>
-    </van-col>
-  </van-row>
+    </el-col>
+  </el-row>
 </template>
 
 <script>
@@ -32,6 +32,7 @@ export default {
 .icon-list {
   height: 100%;
   overflow: auto;
+  
   .icon-item {
     display: flex;
     flex-direction: column;
@@ -49,13 +50,13 @@ export default {
   }
   
   .icon-svg {
-    font-size: 56px;
+    font-size: 30px;
     pointer-events: none;
   }
   
   .icon-name {
     display: block;
-    font-size: 32px;
+    font-size: 16px;
     margin-top: 20px;
   }
 }

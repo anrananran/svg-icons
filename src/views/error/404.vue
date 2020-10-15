@@ -137,13 +137,13 @@
 <style lang="scss" scoped>
 .page-404 { 
   height: 100vh;
-  background-color: $color_white;
+  background-color: #fff;
   padding: 200px 80px 0;
   
   .fly {
     margin: 40px 0;
     font-size: 32px;
-    color: $color_orange;
+    color: #fa976c;
     text-align: center;
   }
   
