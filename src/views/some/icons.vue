@@ -51,6 +51,7 @@ export default {
   
   .icon-svg {
     font-size: 30px;
+    color: #ff4200;
   }
   
   .icon-name {
