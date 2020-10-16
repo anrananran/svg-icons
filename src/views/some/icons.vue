@@ -51,7 +51,6 @@ export default {
   
   .icon-svg {
     font-size: 30px;
-    pointer-events: none;
   }
   
   .icon-name {
