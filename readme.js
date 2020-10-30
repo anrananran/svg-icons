@@ -18,7 +18,7 @@ function parseCatalog(items) {
 emitter.on('file', function(file) {
   if (file && file.endsWith('.svg')) {
     const p = path.relative(__dirname, file)
-    content.items.push(p)
+    content.items.push(p.replace(/\\/g, '/'))
   }
 })
 emitter.on('end', function() {
